@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "mehbdatafactory16oct2025"
+        },
+        "LS_adls_accountKey": {
+            "value": ""
+        },
+        "LS_adls_properties_typeProperties_url": {
+            "value": "https://mehboobstorage16oct25.dfs.core.windows.net/"
+        },
+        "LS_git_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com"
+        },
+        "manager_trigger_properties_typeProperties_scope": {
+            "value": "/subscriptions/90379de2-5a6e-40b0-af53-5631ab62fb4d/resourceGroups/RG_mehboob/providers/Microsoft.Storage/storageAccounts/mehboobstorage16oct25"
+        }
+    }
+}
